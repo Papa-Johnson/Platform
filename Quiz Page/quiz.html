@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz website</title>
+    <link rel="stylesheet" href="quizstyle.css">
+    <link rel="stylesheet" href="header.css">
+
+</head>
+<body>
+    <main class="main">
+
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Programming Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz website</span>
+                        <span class="header-score">Score: 0/ 8</span>
+                    </div>
+
+                    <h2 class="question-text">1. Which language runs in web browser?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>a. Java</span>
+                        </div>
+                        <div class="option">
+                            <span>b. C</span>
+                        </div>
+                        <div class="option">
+                            <span>c. Python</span>
+                        </div>
+                        <div class="option">
+                            <span>d. javascript</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 8 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="home">
+                <div class="home-container">
+                  <h1>Quiz Website</h1>
+                  <p>Having fan while learning, improving your understand and testing your knowledge of javascript, HTML and CSS</p>
+                  <div class="quizbuttons">
+                    <button class="start-btn">Start Quiz</button>
+                    <button onclick="window.location.href='../Home Page/Home-Page.html'" class="start-btn" >Return</button>
+                  </div>
+                  
+                </div> 
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Have fun while learning</span>
+        <span class="info">2. Improve your knowledge of HTML,CSS and Javascript</span>
+        <span class="info">3. Assess your progress</span>
+        <span class="info">4. Enjoy your learning experience</span>
+        <span class="info">5. Get your results</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="quizscript.js"></script>
+</body>
+</html>
